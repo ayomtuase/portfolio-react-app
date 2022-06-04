@@ -9,7 +9,7 @@ const Contact = () => {
             Contact
           </h2>
           <p className="my-4">
-            // Submit the form below or shoot me an email - oguntuase3@gmail.com
+          {"//"} Submit the form below or shoot me an email - oguntuase3@gmail.com
           </p>
           <form method="POST" action="https://getform.io/f/8890a427-5736-44c7-9326-cce27d71a7d6" className="flex flex-col w-full items-center">
             <input

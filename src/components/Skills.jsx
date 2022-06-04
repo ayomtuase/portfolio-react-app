@@ -14,7 +14,7 @@ const Skills = () => {
                 <h2 className="inline border-b-4 border-b-sky-700 text-4xl font-bold">
                     Skills
                 </h2>
-                <p className="my-4">// These are the technologies I've worked with</p>
+                <p className="my-4">{"//"} These are the technologies I've worked with</p>
                 {/* html, css, js, react, github */}
                 <div className="flex flex-wrap gap-4 w-full md:w-11/12 lg:w-4/5 mx-auto mt-6 justify-center">
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">

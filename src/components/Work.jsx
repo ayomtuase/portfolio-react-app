@@ -12,7 +12,7 @@ const Work = () => {
           >
             Work
           </h2>
-          <p className="my-4">// Check out some of my recent work</p>
+          <p className="my-4">{"//"} Check out some of my recent work</p>
           <div className="flex flex-wrap w-full gap-4 justify-center text-center">
             <div
               className="rounded-md basis-[calc(100%_-_1rem)] sm:basis-[calc(50%_-_1rem)] lg:basis-[calc(33.333333%_-_1rem)] content-div group flex justify-center items-center"

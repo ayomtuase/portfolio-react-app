@@ -54,7 +54,7 @@ const Navbar = () => {
               <HiOutlineMail size="25" className="mb-2" />
               Email
             </a>
-            <a target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="/" className="flex flex-col items-center">
               <BsFillPersonLinesFill size="25" className="mb-2" />
               Resume
             </a>            
@@ -83,7 +83,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="bg-[#565f69] p-4 w-40 -ml-28 hover:-ml-7 duration-300">
-            <a target="_blank" rel="noopener noreferrer"  className="w-full flex justify-between items-center text-gray-300">
+            <a href="/"  className="w-full flex justify-between items-center text-gray-300">
               Resume
               <BsFillPersonLinesFill size="30" />
             </a>
