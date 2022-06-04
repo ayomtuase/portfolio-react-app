@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+This repo was created with the help of [Clint Briley's Repo](https://github.com/fireclint/portfolio-app-react) and [YouTube tutorial video](https://www.youtube.com/watch?v=2kg0z1qNrkw) 
+
+>>>>>>> e62b93d16d0aebcb59c828434367f9c04b223a6f
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
