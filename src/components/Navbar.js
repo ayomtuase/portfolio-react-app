@@ -50,7 +50,7 @@ const Navbar = () => {
               <FaGithub size="25" className="mb-2" />
               Github
             </a>
-            <a href="mailto:someone@example.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="mailto:oguntuase3@gmail.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <HiOutlineMail size="25" className="mb-2" />
               Email
             </a>
@@ -77,7 +77,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="bg-emerald-500 p-4 w-40 -ml-28 hover:-ml-7 duration-300">
-            <a href="mailto:someone@example.com" target="_blank" rel="noopener noreferrer" className="w-full flex justify-between items-center text-gray-300">
+            <a href="mailto:oguntuase3@gmail.com" target="_blank" rel="noopener noreferrer" className="w-full flex justify-between items-center text-gray-300">
               Email
               <HiOutlineMail size="30" />
             </a>
