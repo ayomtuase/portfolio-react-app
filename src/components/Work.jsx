@@ -4,9 +4,12 @@ import RealEstateImg from "../assets/realestate.jpg";
 const Work = () => {
   return (
     <>
-      <div className="bg-slate-900 py-16 w-full text-gray-300">
+      <div name="work" className="bg-slate-900 py-16 w-full text-gray-300">
         <div className="md:w-4/5 lg:max-w-3xl xl:max-w-[1000px] mx-auto h-full px-4 flex flex-col justify-center items-baseline">
-          <h2 className="inline border-b-4 border-b-sky-700 text-4xl font-bold">
+          <h2
+            
+            className="inline border-b-4 border-b-sky-700 text-4xl font-bold"
+          >
             Work
           </h2>
           <p className="my-4">// Check out some of my recent work</p>
