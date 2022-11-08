@@ -50,7 +50,7 @@ const Skills = () => {
                   </div>
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
                     <img src={NextJSLogo} className="w-20" alt="HTML logo" />
-                    <p className="mt-4">Next.JS</p>
+                    <p className="mt-[100px]">NextJS</p>
                   </div>                  
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
                     <img src={GithubLogo} className="w-20" alt="HTML logo" />

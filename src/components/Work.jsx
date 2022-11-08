@@ -80,7 +80,7 @@ const Work = () => {
                 </h3>
                 <div className="w-5/6 flex justify-between mt-6">
                   <a
-                    className="bg-white rounded-lg px-4 py-3 text-gray-700 font-bold text-lg no-underline"
+                    className="bg-white rounded-lg px-4 py-3 text-gray-700 font-bold text-lg no-underline self-center"
                     href="https://www.myfuelcredit.com/"
                     target="_blank"
                     rel="noopener noreferrer"

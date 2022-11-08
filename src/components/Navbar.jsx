@@ -5,6 +5,8 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
+import ResumePDF from "../assets/Ayomide_Oguntuase_Resume_LI.pdf";
+
 import Logo from "../assets/my_logo.png";
 
 const Navbar = () => {
@@ -142,15 +144,14 @@ const Navbar = () => {
               <HiOutlineMail size="25" className="mb-2" />
               Email
             </a>
-            <Link
-              to="/files/Ayomide_Oguntuase_Resume_LI.pdf"
+            <a
+              href={ResumePDF}
+              download="Ayomide_Oguntuase_Resume_LI.pdf"
               className="flex flex-col items-center"
-              target="_blank"
-              download
             >
               <BsFillPersonLinesFill size="25" className="mb-2" />
               Resume
-            </Link>
+            </a>
           </div>
         </li>
       </ul>
