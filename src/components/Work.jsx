@@ -78,9 +78,9 @@ const Work = () => {
                   My work as a Frontend Developer at FuelCredit{" "}
                   {"(A private repo)"}
                 </h3>
-                <div className="w-5/6 flex justify-between mt-6">
+                <div className="w-5/6 flex justify-center mt-6">
                   <a
-                    className="bg-white rounded-lg px-4 py-3 text-gray-700 font-bold text-lg no-underline self-center"
+                    className="bg-white rounded-lg px-4 py-3 text-gray-700 font-bold text-lg no-underline"
                     href="https://www.myfuelcredit.com/"
                     target="_blank"
                     rel="noopener noreferrer"
