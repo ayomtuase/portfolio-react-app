@@ -1,7 +1,7 @@
 import React from "react";
-import FuelCreditImg from "../assets/myfuelcredit.jpg";
-import LendSqrImg from "../assets/lendSqr.jpg";
-import ParivestImg from "../assets/parivest.jpg";
+import FuelCreditImg from "../assets/myfuelcredit.png";
+import LendSqrImg from "../assets/lendSqr.png";
+import ParivestImg from "../assets/parivest.png";
 
 const Work = () => {
   return (
