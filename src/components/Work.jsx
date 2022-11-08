@@ -1,6 +1,6 @@
 import React from "react";
 import FuelCreditImg from "../assets/myfuelcredit.png";
-import LendSqrImg from "../assets/lendSqr.png";
+import LendSqrImg from "../assets/lendsqr.png";
 import ParivestImg from "../assets/parivest.png";
 
 const Work = () => {
