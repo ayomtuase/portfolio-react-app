@@ -49,7 +49,7 @@ const Skills = () => {
                     <p className="absolute top-[96px]">React</p>
                   </div>
                   <div className="relative h-[136px] hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
-                    <img src={NextJSLogo} className="w-[413.9px]" alt="NextJS" />
+                    <img src={NextJSLogo} className="w-24" alt="NextJS" />
                     <p className="absolute top-[96px]">NextJS</p>
                   </div>                  
                   <div className="relative h-[136px] hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">

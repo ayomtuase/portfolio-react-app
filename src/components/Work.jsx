@@ -73,7 +73,7 @@ const Work = () => {
               className="rounded-md basis-[calc(100%_-_1rem)] sm:basis-[calc(50%_-_1rem)] lg:basis-[calc(33.333333%_-_1rem)] content-div group flex justify-center items-center"
               style={{ backgroundImage: `url(${FuelCreditImg})` }}
             >
-              <div className="opacity-0 group-hover:opacity-100 flex flex-col items-center">
+              <div className="opacity-0 group-hover:opacity-100 flex flex-col items-center px-2">
                 <h3 className="text-white font-bold text-2xl">
                   My work as a Frontend Developer at FuelCredit{" "}
                   {"(A private repo)"}
