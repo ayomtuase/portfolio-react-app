@@ -2,9 +2,12 @@ import React from 'react'
 import HTMLLogo from '../assets/html.png'
 import CSSLogo from '../assets/css.png'
 import JSLogo from '../assets/javascript.png'
+import TSLogo from '../assets/typescript.png'
 import ReactLogo from '../assets/react.png'
+import ChakraLogo from '../assets/chakra.png'
 import GithubLogo from '../assets/github.png'
 import TailwindLogo from '../assets/tailwind.png'
+import NextJSLogo from '../assets/nextjs.png'
 
 const Skills = () => {
   return (
@@ -30,13 +33,25 @@ const Skills = () => {
                     <p className="mt-4">TailwindCSS</p>
                   </div>
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
+                    <img src={ChakraLogo} className="w-20" alt="HTML logo" />
+                    <p className="mt-4">ChakraUI</p>
+                  </div>
+                  <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
                     <img src={JSLogo} className="w-20" alt="HTML logo" />
                     <p className="mt-4">Javascript</p>
-                  </div>                  
+                  </div>  
+                  <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
+                    <img src={TSLogo} className="w-20" alt="HTML logo" />
+                    <p className="mt-4">Typescript</p>
+                  </div>                
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
                     <img src={ReactLogo} className="w-20" alt="HTML logo" />
                     <p className="mt-4">React</p>
                   </div>
+                  <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
+                    <img src={NextJSLogo} className="w-20" alt="HTML logo" />
+                    <p className="mt-4">Next.JS</p>
+                  </div>                  
                   <div className="hover:scale-110 duration-300 basis-[calc(50%_-_1rem)] sm:basis-[calc(33.333333%_-_1rem)] bg-slate-900 shadow-md shadow-[#040c16] flex flex-col items-center pb-4">
                     <img src={GithubLogo} className="w-20" alt="HTML logo" />
                     <p className="mt-4">Github</p>
