@@ -7,41 +7,38 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import Logo from "../assets/my_logo.png";
 
+const resumePath = process.env.PUBLIC_URL + "/files/Ayo-resume.pdf";
+
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleMobileNav = () => setIsNavOpen(!isNavOpen);
 
   return (
-    <div className="flex bg-slate-900 justify-between px-4 h-[80px] sticky top-0 items-center w-full text-gray-300">
+    <div className="flex bg-slate-900 justify-between px-4 h-[80px] sticky top-0 items-center w-full text-gray-300 z-50">
       <img src={Logo} className="w-[120px]" alt="Logo" />
 
       <ul className="hidden sm:flex">
-        <li>
-          <Link to="hero" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+        {[
+          { text: "Home", to: "hero" },
+          { text: "About", to: "about" },
+          { text: "Skills", to: "skills" },
+          { text: "Work", to: "work" },
+          { text: "Contact", to: "contact" },
+        ].map(({ to, text }) => {
+          return (
+            <li key={to}>
+              <Link
+                to={to}
+                smooth={true}
+                duration={500}
+                offset={to !== "hero" ? -100 : undefined}
+              >
+                {text}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
 
       <div
@@ -63,56 +60,28 @@ const Navbar = () => {
       flex-col justify-evenly items-center text-4xl`
         }
       >
-        <li>
-          <Link
-            onClick={toggleMobileNav}
-            to="hero"
-            smooth={true}
-            duration={500}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={toggleMobileNav}
-            to="about"
-            smooth={true}
-            duration={500}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={toggleMobileNav}
-            to="skills"
-            smooth={true}
-            duration={500}
-          >
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={toggleMobileNav}
-            to="work"
-            smooth={true}
-            duration={500}
-          >
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={toggleMobileNav}
-            to="contact"
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </Link>
-        </li>
+        {[
+          { text: "Home", to: "hero" },
+          { text: "About", to: "about" },
+          { text: "Skills", to: "skills" },
+          { text: "Work", to: "work" },
+          { text: "Contact", to: "contact" },
+        ].map(({ to, text }) => {
+          return (
+            <li key={to}>
+              <Link
+                to={to}
+                smooth={true}
+                duration={500}
+                onClick={toggleMobileNav}
+                offset={to !== "hero" ? -50 : undefined}
+              >
+                {text}
+              </Link>
+            </li>
+          );
+        })}
+        
         <li className="px-0 w-full">
           <div className="flex justify-evenly text-base">
             <a
@@ -143,9 +112,7 @@ const Navbar = () => {
               Email
             </a>
             <a
-              href={
-                process.env.PUBLIC_URL + "/files/AM Oguntuase SE Resume.pdf"
-              }
+              href={resumePath}
               download
               className="flex flex-col items-center"
             >
@@ -193,9 +160,7 @@ const Navbar = () => {
           </li>
           <li className="bg-[#565f69] p-4 w-40 -ml-28 hover:-ml-7 duration-300">
             <a
-              href={
-                process.env.PUBLIC_URL + "/files/AM Oguntuase SE Resume.pdf"
-              }
+              href={resumePath}
               download
               className="w-full flex justify-between items-center text-gray-300"
             >
