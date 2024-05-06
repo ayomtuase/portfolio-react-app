@@ -37,13 +37,15 @@ const Work = () => {
             },
             {
               bgImage: QshopImg,
-              text: "Front-end dev contributor to Qshop's core merchant dashboard",
+              text: "Front-end dev contributor to Qshop's core dashboard",
+              extraText: "Email: debbiemo@gmail.com, Password: Christinme26!",
               demoUrl: "https://staging.qshop.tech/store/login",
               isPublic: false,
             },
             {
               bgImage: SmappsImg,
               text: "Front-end dev contributor to Smapps group's restuarant SAAS",
+              extraText: "Phone: 08037660037, Password: 660037",
               demoUrl: "https://qrmenu-waiter.smappsgroup.com/#/menu",
               isPublic: false,
             },
@@ -89,7 +91,7 @@ const Work = () => {
                 "https://ayomide-mofolorunso-oguntuase-lendsqr-fe-test.vercel.app/",
               isPublic: true,
             },
-          ].map(({ bgImage, text, isPublic, demoUrl, codeUrl }) => {
+          ].map(({ bgImage, text, isPublic, demoUrl, codeUrl, extraText }) => {
             return (
               <div
                 key={text}
@@ -118,6 +120,7 @@ const Work = () => {
                       </a>
                     ) : null}
                   </div>
+                  {extraText ? <p className='text-xs mt-3 text-center font-medium'>{extraText}</p> : null}
                 </div>
               </div>
             );
