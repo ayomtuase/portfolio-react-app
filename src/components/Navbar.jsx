@@ -56,7 +56,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : `absolute bg-slate-900 top-0 left-0 flex w-full h-screen 
+            : `absolute bg-slate-900 top-0 left-0 flex w-full h-screen
       flex-col justify-evenly items-center text-4xl`
         }
       >
@@ -81,11 +81,11 @@ const Navbar = () => {
             </li>
           );
         })}
-        
+
         <li className="px-0 w-full">
           <div className="flex justify-evenly text-base">
             <a
-              href="https://www.linkedin.com/in/ayomide-oguntuase/"
+              href="https://www.linkedin.com/in/ayo-tuase/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center"

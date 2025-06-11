@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileImg from "../assets/profile-pic.jpg";
 import { Element } from "react-scroll";
+import ProfileImg from "../assets/profile-pic.jpg";
 
 const About = () => {
   return (
@@ -25,16 +25,31 @@ const About = () => {
               alt={"Ayomide"}
             />
           </div>
-          <div>
-            <p className="font-light text-[#ccd6f6]">
+          <div className="font-light text-[#ccd6f6]">
+            <p>
               I'm a software developer specializing in React, Next.js,
-              TypeScript, and TailwindCSS, crafting polished and performant web
-              applications. Currently, I'm delving into the realms of Node.js,
-              Express.js, MongoDB and SQL to enhance my backend prowess and
-              build scalable server-side solutions. I'm also exploring React
-              Native and Expo for cross-platform mobile development, eager to
-              create engaging experiences across devices. Let's collaborate and
-              innovate together!
+              TypeScript, and TailwindCSS—crafting scalable, visually polished,
+              and high-performance web applications.
+            </p>
+            <p className="mt-6">
+              I’ve engineered complex UI systems using tools like ShadcnUI,
+              Zustand, and SWR, and built AI-powered dashboards and data-rich
+              visualizations with D3.js.
+            </p>
+            <p className="mt-6">
+              On the backend, I’m proficient in Node.js, Express.js, PostgreSQL,
+              and DrizzleORM, and have delivered full-stack systems with Django
+              and REST APIs. I’ve implemented real-time features using
+              WebSockets and background processing with Redis and BullMQ.
+            </p>
+            <p className="mt-6">
+              My DevOps skills include Docker, CI/CD pipelines, and deploying to
+              cloud platforms like Google Cloud. Currently, I’m diving deeper
+              into advanced AI integrations (OpenAI, Gemini, RAG systems) and
+              experimenting with scalable architectures. I’m passionate about
+              clean, maintainable code, seamless user experiences, and building
+              tools that grow with your needs. Let’s build something powerful
+              together!
             </p>
           </div>
         </div>
